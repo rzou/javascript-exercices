@@ -1,0 +1,1 @@
+https://www.exelib.net/javascript/modifier-les-styles-avec-un-input-de-type-range.html
