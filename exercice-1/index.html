@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS: Manipulation des styles</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Couleur de fond(rgb)</td>
+            <td>0<input type="range" id="rgb" name="rgb" min="0" max="255" value="0" oninput="modify(this)" />255</td>
+            <td rowspan="6" align="center" width="400"> <h1 id="result">Text</h1></td>
+        <tr>
+            <td>Padding</td>
+            <td>0<input type="range" id="padding" name="padding" min="0" max="30" value="0" oninput="modify(this)" />30</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>0<input type="range" id="height" name="height" min="0" max="200" value="0" oninput="modify(this)" />200</td>
+        </tr>
+        <tr>
+            <td>Width</td>
+            <td>0<input type="range" id="width" name="width" min="0" max="200" value="0" oninput="modify(this)" />200</td>
+        </tr>
+        <tr>
+            <td>Arrondi</td>
+            <td>0<input type="range" id="arrondi" name="arrondi" min="0" max="30" value="0" oninput="modify(this)" />30</td>
+        </tr>
+        <tr>
+            <td>Rotation</td>
+            <td>0<input type="range" id="rotation" name="rotation" min="0" max="180" value="0" oninput="modify(this)" />180</td>
+        </tr>
+    </table>    
+    <script src="index.js"></script>
+</body>
+</html>
